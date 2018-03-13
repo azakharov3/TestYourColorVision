@@ -1,0 +1,294 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/green_red_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_numbers" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/green-red-16-0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="0" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="1" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="2" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="5" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="6" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="7" />
+
+                <CheckBox
+                    android:id="@+id/green-red-16-9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="5" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/green_brown_nothing" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select what you see" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/green-brown-nothing-kettle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kettle" />
+
+                <RadioButton
+                    android:id="@+id/green-brown-nothing-dog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dog" />
+
+                <RadioButton
+                    android:id="@+id/green-brown-nothing-car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Car" />
+
+                <RadioButton
+                    android:id="@+id/green-brown-nothing-nothing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nothing" />
+
+                <RadioButton
+                    android:id="@+id/green-brown-nothing-flower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flower" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/purple_green_5" />
+
+            <EditText
+                android:id="@+id/purple-green-input-field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please type the number"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/orange_green_45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_numbers" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/orange-green-45-2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="9" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="3" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="4" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="8" />
+
+            <CheckBox
+                android:id="@+id/orange-green-45-1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brown_green_girl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select what you see" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/brown-green-girl-radio-button-eagle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eagle" />
+
+            <RadioButton
+                android:id="@+id/brown-green-girl-radio-button-nothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nothing" />
+
+            <RadioButton
+                android:id="@+id/brown-green-girl-radio-button-girl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girl" />
+
+            <RadioButton
+                android:id="@+id/brown-green-girl-radio-button-cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat" />
+
+            <RadioButton
+                android:id="@+id/brown-green-girl-radio-button-cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloud" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onGetResultsTap"
+        android:text="Get Results" />
+
+
+</LinearLayout></ScrollView>
